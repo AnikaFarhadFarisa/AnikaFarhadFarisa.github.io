@@ -1,0 +1,44 @@
+body{
+    background: purple;
+    padding: 0px 80px;
+
+}
+
+#name{
+    color: aliceblue;
+    font-size: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+    color: aliceblue;
+    font-size: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+button{
+    cursor: pointer;
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: aliceblue;
+}
+
+#pp1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 25px;
+    display: none;
+}
+
+#des{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 45px;
+    display: block;
+}
+
+
