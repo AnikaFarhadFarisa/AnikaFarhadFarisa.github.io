@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my_Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">My Projects</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <!-- <li><a href="#projects">Projects</a></li> -->
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="connect.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">My Projects</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <!-- <li><a href="#projects" onclick="toggleMenu()">Projects</a></li> -->
+          <li>
+            <a href="experience.html" onclick="toggleMenu()">Experience</a>
+          </li>
+          <li><a href="connect.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <div id="projcont">
+      <div id="projects">
+        <div id="projs">
+          <img id="preview" src="assets/weather_app.png" alt="" />
+          <h1>Weather App</h1>
+          <p>Get the current weather info along with forecast.</p>
+        </div>
+        <div id="projs">
+          <img id="preview" src="assets/space_invaders.png" alt="" />
+          <h1>Space Invaders</h1>
+          <p>The classic space inavders game.</p>
+        </div>
+        <div id="projs">
+          <img id="preview" src="assets/guessing_game.png" alt="" />
+          <h1>Guessing Game</h1>
+          <p>Try to find a random object. Play here or go to gitHub.</p>
+        </div>
+        <div id="projs">
+          <img id="preview" src="assets/tic_tac_toe.png" alt="" />
+          <h1>Tic tac toe</h1>
+          <p>Play tic tac toe with a friend. Play here or go to gitHub.</p>
+        </div>
+        <div id="projs">
+          <img id="preview" src="assets/portfolio_site.png" alt="" />
+          <h1>My Portfolio Site</h1>
+          <p>Portfolio website built using JavaScript, HTML & CSS</p>
+        </div>
+      </div>
+    </div>
+    <h3 id="connectp">Connect with me</h3>
+    <div id="iconsp">
+      <a href="https://www.linkedin.com/in/anika-farhad-farisa/"
+        ><img src="assets/linkedin.png" alt=""
+      /></a>
+      <a href="https://github.com/AnikaFarhadFarisa"
+        ><img src="assets/github.png" alt=""
+      /></a>
+      <a href="https://discord.com/channels/@me"
+        ><img src="assets/discord.png" alt=""
+      /></a>
+      <a href="mailto:afsp677@gmail.com"
+        ><img src="assets/email.png" alt=""
+      /></a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
