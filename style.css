@@ -158,8 +158,8 @@ h1{
     flex-shrink: 0;
     height: 400px;
     width: 360px;
-    border-radius: 10%;
-    border: 3px solid #555;
+    border-radius: 20px;
+    border: 2px solid #555;
     overflow: hidden;
     margin: none;
 }
@@ -183,6 +183,7 @@ h1{
 #icons img{
     height: 40px;
     width: 44px;
+    border-radius: 7px;
 }
 
 #connectp{
@@ -206,6 +207,7 @@ h1{
 #iconsp img{
     height: 40px;
     width: 44px;
+    border-radius: 7px;
 }
 
 #connectc{
@@ -229,6 +231,7 @@ h1{
 #iconsc img{
     height: 40px;
     width: 44px;
+    border-radius: 7px;
 }
 
 /* #about{
@@ -258,7 +261,6 @@ h1{
     position: relative;
     /* background-color: aqua; */
     column-gap: 5em;
-    row-gap: 5em;
 
 }
 
@@ -278,7 +280,7 @@ h1{
     width: 32.5vh;
     margin: 10px;
     border-radius: 10px;
-    border: #555 2px solid;
+    border: #555 1px solid;
 }
 
 #projs h1{
@@ -286,9 +288,18 @@ h1{
     background: none;
 }
 
-#projs h3{
-    font-size: 1.7vh;
-    background: none;
+#projs a{
+    color:rgb(0, 102, 204);
+    
+}
+
+#projs a:hover{
+    color:white;
+    transition: 0.25s;
+}
+
+#projs p{
+    margin-bottom: 10em;
 }
 
 #logo_ic{
