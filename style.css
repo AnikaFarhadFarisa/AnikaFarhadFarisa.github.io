@@ -124,7 +124,6 @@ a:hover{
 
 .visited a{
     padding: 10px;
-    border: 1px white solid;
     color: white;
     border-radius: 9px;
     background-color: rgb(180, 105, 146);
