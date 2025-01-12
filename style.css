@@ -164,11 +164,6 @@ h1{
     font-size: 1.875em;
 }
 
-.prof_image{
-    display: flex;
-    padding: 20px
-}
-
 .profile_image{
     flex-shrink: 1;
     height: 25em;
