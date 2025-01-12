@@ -166,6 +166,7 @@ h1{
 
 .prof_image{
     display: flex;
+    padding: 20px
 }
 
 .profile_image{
