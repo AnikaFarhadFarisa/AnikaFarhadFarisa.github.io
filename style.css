@@ -140,31 +140,38 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 1400px;
+    width: 87.5em;
     position: relative;
     padding: 0px 0px;
     /* background-color: antiquewhite; */
     align-items: center;
 }
 
+.about_me{
+    padding: 20px;
+}
 
 .about_me p{
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .in_text{
-    height: 40px;
-    width: 40px;
+    height: 2.5em;
+    width: 2.5em;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 1.875em;
+}
+
+.prof_image{
+    display: flex;
 }
 
 .profile_image{
-    flex-shrink: 0;
-    height: 400px;
-    width: 360px;
+    flex-shrink: 1;
+    height: 25em;
+    width: 22.5em;
     border-radius: 20px;
     border: 2px solid #555;
     overflow: hidden;
