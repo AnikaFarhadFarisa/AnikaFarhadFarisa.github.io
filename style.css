@@ -133,7 +133,7 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .about{
@@ -148,7 +148,7 @@ a:hover{
 }
 
 .about_me{
-    padding: 22px;
+    padding: 20px;
 }
 
 .about_me p{
@@ -162,6 +162,10 @@ a:hover{
 
 h1{
     font-size: 1.875em;
+}
+
+.prof_image{
+    display: flex;
 }
 
 .profile_image{
@@ -179,6 +183,7 @@ h1{
     justify-content: center;
     position: relative;
     padding: 30px;
+    /* top: 200px; */
 }
 
 #icons{
@@ -187,6 +192,7 @@ h1{
     column-gap: 5em;
     flex-wrap: wrap;
     position: relative;
+    /* top: 250px; */
 }
 
 #icons img{
