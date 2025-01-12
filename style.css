@@ -191,6 +191,7 @@ h1{
     column-gap: 5em;
     flex-wrap: wrap;
     position: relative;
+    padding: 0 0 50px 0;
     /* top: 250px; */
 }
 
@@ -204,7 +205,8 @@ h1{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 100px;
+    padding: 30px;
+    /* top: 100px; */
 
 }
 
@@ -214,13 +216,12 @@ h1{
     column-gap: 5em;
     flex-wrap: wrap;
     position: relative;
-    top: 100px;
-    padding: 50px;
+    padding: 0 0 50px 0;
 }
 
 #iconsp img{
-    height: 40px;
-    width: 44px;
+    height: 1.8em;
+    width: 1.8em;
     border-radius: 7px;
 }
 
@@ -328,8 +329,8 @@ h1{
 }
 
 .experience{
-    width: 1150px;
-    padding: 0px 200px;
+    width: 71em;
+    padding: 0px 20px;
     position: relative;
     row-gap: 1em;
     /* background-color: antiquewhite; */
@@ -337,16 +338,16 @@ h1{
 
 .experience h1{
     padding: 10px 0px;
-    font-size: 25px;
+    font-size: 1.56em;
 }
 
 .experience h2{
     padding: 10px 0px;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .experience p{
     padding: 10px 0px;
-    font-size: 15px;
+    font-size: 0.93em;
 }
 
