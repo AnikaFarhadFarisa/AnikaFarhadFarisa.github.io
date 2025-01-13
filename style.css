@@ -139,16 +139,15 @@ a:hover{
 .about{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     width: 87.5em;
-    position: relative;
-    padding: 0px 0px;
+    /* position: relative; */
     /* background-color: antiquewhite; */
     align-items: center;
 }
 
 .about_me{
-    padding: 20px;
+    padding: 0 20px 20px;
 }
 
 .about_me p{
@@ -164,11 +163,11 @@ h1{
     font-size: 1.875em;
 }
 
-.prof_image{
+/* .prof_image{
     display: flex;
-}
+} */
 
-.profile_image{
+/* .profile_image{
     flex-shrink: 1;
     height: 25em;
     width: 22.5em;
@@ -176,7 +175,7 @@ h1{
     border: 2px solid #555;
     overflow: hidden;
     margin: none;
-}
+} */
 
 #connect{
     display: flex;
@@ -271,7 +270,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     padding: 0 2.68em 0 2.68em;
-    /* justify-content: space-between; */
+    justify-content: center;
     width: 78em;
     position: relative;
     /* background-color: aqua; */
@@ -285,7 +284,7 @@ h1{
     height: 43vh;
     width: 34vh;
     /* background-color: rgba(253, 134, 200, 0.76); */
-    padding: 5px;
+    padding: 0px 5px 5px 5px;
     /* border-radius: 10px;
     border: 2px solid rgba(27, 26, 26, 0.144); */
 }
@@ -330,7 +329,7 @@ h1{
 
 .experience{
     width: 71em;
-    padding: 0px 20px;
+    padding: 0px 20px 20px;
     position: relative;
     row-gap: 1em;
     /* background-color: antiquewhite; */
